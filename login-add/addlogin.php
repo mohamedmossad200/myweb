@@ -18,6 +18,6 @@ $phone=$_POST['phone'];
 $pass=$_POST['pass'];
 $s="INSERT INTO LOGINUSER (email,phone,pass)VALUES('$email','$phone','$pass')";
 $r=$m->query($s);
-header('location://localhost/solid/index.html');
+header('location://localhost/solid/home.html');
 ;}
 ?>

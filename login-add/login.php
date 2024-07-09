@@ -19,7 +19,7 @@ $c=$r->num_rows;
 
 }
 if($c >0){
-header('location://localhost/solid/index.html');
+header('location://localhost/solid/home.html');
 
 
 }else{
