@@ -1,0 +1,41 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../admin_web/Article-Cover-AI-Web-Design.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+  
+i{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.wrapper {
+    align-items: stretch;
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    max-width: 264px;
+    max-width: 264px;
+    transition: all 0.35s ease-in-out;
+    box-shadow: 0 0 35px 0 rgb(69, 73, 77);
+    z-index: 1111;
+}
+#sidebar .coolasped {
+    margin-left: 264px;
+}
